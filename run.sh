@@ -1,4 +1,4 @@
-# make sure everything is up to date bfore starting
+# make sure everything is up to date before starting
 sudo apt-get update
 sudo apt-get -y dist-upgrade
 
