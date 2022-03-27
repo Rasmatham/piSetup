@@ -1,3 +1,6 @@
+#start time
+date
+
 # make sure everything is up to date before starting
 sudo apt-get update
 sudo apt-get -y dist-upgrade
@@ -16,3 +19,6 @@ rm pihole.sh
 curl https://raw.githubusercontent.com/Rasmatham/piSetup/main/retropie.sh -O
 bash retropie.sh
 rm retropie.sh
+
+#end time
+date
