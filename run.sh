@@ -11,12 +11,12 @@ bash piSetup.sh $1
 rm piSetup.sh
 
 #get script to install pihole and run, then delete the script
-curl https://raw.githubusercontent.com/Rasmatham/piSetup/main/pihole.sh -O
+curl https://raw.githubusercontent.com/Rasmatham/piSetup/main/pihole/pihole.sh -O
 bash pihole.sh
 rm pihole.sh
 
 #get script to install retropie and run, then delete the script
-curl https://raw.githubusercontent.com/Rasmatham/piSetup/main/retropie.sh -O
+curl https://raw.githubusercontent.com/Rasmatham/piSetup/main/retropie/retropie.sh -O
 bash retropie.sh
 rm retropie.sh
 
