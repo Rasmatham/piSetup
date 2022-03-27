@@ -2,14 +2,17 @@
 sudo apt-get update
 sudo apt-get -y dist-upgrade
 
-#get script to install discord bots and run
+#get script to install discord bots and run, then delete the script
 curl https://raw.githubusercontent.com/Rasmatham/Ras-s-Discord-Bots/main/piSetup.sh -O
 bash piSetup.sh $1
+rm piSetup.sh
 
-#get script to install pihole and run
+#get script to install pihole and run, then delete the script
 curl https://raw.githubusercontent.com/Rasmatham/piSetup/main/pihole.sh -O
 bash pihole.sh
+rm pihole.sh
 
-#get script to install retropie and run
+#get script to install retropie and run, then delete the script
 curl https://raw.githubusercontent.com/Rasmatham/piSetup/main/retropie.sh -O
 bash retropie.sh
+rm retropie.sh
