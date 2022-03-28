@@ -16,9 +16,9 @@ bash pihole.sh
 rm pihole.sh
 
 #get script to install retropie and run, then delete the script
-curl https://raw.githubusercontent.com/Rasmatham/piSetup/main/retropie/retropie.sh -O
-bash retropie.sh
-rm retropie.sh
+#curl https://raw.githubusercontent.com/Rasmatham/piSetup/main/retropie/retropie.sh -O
+#bash retropie.sh
+#rm retropie.sh
 
 #end time
 date
