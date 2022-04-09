@@ -11,9 +11,9 @@ sudo bash piSetup.sh $1
 sudo rm piSetup.sh
 
 #get script to install pihole and run, then delete the script
-sudo curl https://raw.githubusercontent.com/Rasmatham/piSetup/main/pihole/pihole.sh -O
-sudo bash pihole.sh
-sudo rm pihole.sh
+#sudo curl https://raw.githubusercontent.com/Rasmatham/piSetup/main/pihole/pihole.sh -O
+#sudo bash pihole.sh
+#sudo rm pihole.sh
 
 #get script to install retropie and run, then delete the script
 #curl https://raw.githubusercontent.com/Rasmatham/piSetup/main/retropie/retropie.sh -O
