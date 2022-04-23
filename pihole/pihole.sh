@@ -4,5 +4,5 @@ sudo curl https://raw.githubusercontent.com/Rasmatham/piSetup/main/pihole/setupV
 sudo rm -rf /etc/pihole
 sudo mkdir /etc/pihole
 sudo mv setupVars.conf /etc/pihole/
-sudo bash basic-install.sh --unattended
+sudo bash basic-install.sh
 cd /
